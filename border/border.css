@@ -15,6 +15,16 @@ td {
   font-weight: 500;
 }
 
+p {
+  border: 1px solid black;
+  width: 50px;
+  margin-inline: auto;
+}
+
+.inherit {
+  margin-left: inherit;
+}
+
 #koni {
   text-align: end;
 }
