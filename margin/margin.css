@@ -1,0 +1,26 @@
+.container {
+  border: 10px solid;
+  height: 10000px;
+}
+
+.hello-text {
+  border: 10px solid blue;
+  text-align: center;
+}
+
+.hello {
+  border: 10px solid blue;
+  width: fit-content;
+  margin: auto;
+  /* margin-left: 50%; */
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+p {
+  display: inline-block;
+  vertical-align: middle;
+}
