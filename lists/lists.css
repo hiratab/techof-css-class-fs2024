@@ -1,0 +1,18 @@
+ul {
+  list-style-type: disc;
+}
+
+.position-outside {
+  list-style-position: outside;
+}
+
+.position-inside {
+  list-style-position: inside;
+}
+
+.image {
+  list-style-image: url('ball.png');
+  /* list-style-position: outside; */
+  /* list-style: square outside url('ball.png'); */
+}
+

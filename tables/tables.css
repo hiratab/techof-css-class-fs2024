@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+}
+
+table, thead {
+  border: 1px solid blue;
+}
+
+thead {
+  border-bottom: 4px solid #dddddd;
+  /* background-color: rgb(81, 151, 220); */
+  /* color: aliceblue; */
+}
+
+td {
+  border-bottom: 2px solid #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: silver;
+}
+
+tr:hover {
+  background-color: #dddddd;
+}
