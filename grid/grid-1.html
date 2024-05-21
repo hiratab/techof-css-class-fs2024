@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Grid</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 20px;
+    }
+
+    header, footer {
+      background-color: rgb(218, 216, 216);
+    }
+
+    aside {
+      border-right: 2px solid darkgray;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>This is a header element</header>
+    <article>
+      <h1>Article Title</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis mi eget eros aliquam, sed mollis enim maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis rhoncus tellus in hendrerit pellentesque. Nam efficitur sed est in tincidunt. Vivamus semper varius ipsum, id cursus sapien volutpat id. Donec scelerisque neque magna, a tincidunt elit blandit vitae. Cras sed metus iaculis, gravida lorem ac, hendrerit libero. Aliquam non porta ex, in bibendum neque. In rutrum sem maximus libero volutpat cursus. Quisque euismod fringilla semper. Curabitur facilisis dignissim congue.
+      </p>
+      <p>Vivamus euismod luctus est eget iaculis. Maecenas nec mauris sem. Donec ornare luctus arcu, at tempus mi ornare sit amet. Nullam bibendum orci at diam vehicula convallis. Maecenas ut urna magna. Aenean vulputate neque nec orci commodo, non pharetra justo ultricies. In hac habitasse platea dictumst.</p>
+    </article>
+    <aside>
+      <h2>Aside</h2>
+      <p>Vivamus euismod luctus est eget iaculis. Maecenas nec mauris sem.</p>
+    </aside>
+    <footer>CSS Flexbox Class</footer>
+  </div>
+</body>
+
+</html>
