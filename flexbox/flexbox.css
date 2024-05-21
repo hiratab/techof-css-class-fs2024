@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  height: 1.5em;
+  width: auto;
+}
+
+#a, #b, #c, #d, #e, #f {
+  /* width: 100px; */
+  flex-basis: 120px;
+}
+
+
+#a {
+  background-color: bisque;
+}
+
+#b {
+  background-color: crimson;
+}
+
+#c {
+  background-color: blueviolet;
+}
+
+
+#d {
+  background-color: brown;
+}
+
+#e {
+  background-color: burlywood;
+}
+
+#f {
+  background-color: cadetblue;
+}
